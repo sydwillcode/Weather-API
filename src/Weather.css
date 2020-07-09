@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
-.container {
+.container, .weather {
     display: flex;
-}
-
-.weather {
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.city {
+    font-size: 2rem;
+}
+.current-temp {
+    font-size: 2rem
+}
+
