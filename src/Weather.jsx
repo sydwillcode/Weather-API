@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Fragment } from "react";
+import React, { useState, useEffect } from "react";
 import "./Weather.css";
 
 let city = "Chicago";
@@ -53,6 +53,7 @@ const Weather = () => {
             {weather.wind && <div>Wind Speed: {weather.wind.speed} MPH</div>}
           </>
         </div>
+        <input className="" placeholder="Enter a different city"></input>
       </div>
     </>
   );

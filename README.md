@@ -7,7 +7,7 @@ This project was created to display the current weather of my favorite city, and
 #### Tech Used
 
 This project was created using: </br>
- * [Open Weather Map API ]  (https://openweathermap.org/)
+ * [Open Weather Map API ](https://openweathermap.org/)
  * React Hooks
  * JavaScript
  * CSS
